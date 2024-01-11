@@ -1,7 +1,7 @@
 
 [🔃 (go-to 🇧🇷) Versão em Português](https://github.com/camimq/fiap_wine/blob/main/README_pt-BR.md)
 
-# 👩‍💻 Exploratory Data Analysis Challenge![Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=0677B9)
+# 👩‍💻 Exploratory Data Analysis Challenge! [Badge](https://img.shields.io/static/v1?label=license&message=MIT&color=0677B9)
 
 > AIndividual activity of the Exploratory Data Analysis discipline of the postgraduate course in _Data Analytics_ at FIAP.
 
