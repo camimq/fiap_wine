@@ -52,7 +52,7 @@ wine_data.isnull().sum()
 
 #### a. Distribution of volatile acidity by wine quality.</br>
 
-![Graph of Distribution of Volatile Acidity by Wine Quality](plots\distribuicao_acidez_volatil_x_qualidade.png)
+![Graph of Distribution of Volatile Acidity by Wine Quality](plots/distribuicao_acidez_volatil_x_qualidade.png)
 
 #### b. Distribution of alcohol content by wine quality.</br>
 
