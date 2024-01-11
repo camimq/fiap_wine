@@ -32,6 +32,9 @@ plt.ylabel('Acidez Volátil')
 plt.title('Acidez Volátil por Qualidade')
 plt.show()
 
+# calcula acidez volátil média entre os vinhos de qualida >= 8
+wine_data[wine_data['quality'] >= 8]['volatile acidity'].mean()
+
 # distribuição do teor alcoólico por qualidade do vinho
 plt.bar(wine_data['quality'], wine_data['alcohol'])
 plt.xlabel('Qualidade')
@@ -41,8 +44,14 @@ plt.show()
 
 # visualiza distribuição entre acidez volátil e teor alcoólico
 plt.scatter(wine_data['volatile acidity'], wine_data['alcohol'])
+plt.title('Distribuição Acidez Volátil x Teor Alcoólico')
+plt.xlabel('Acidez Volátil')
+plt.ylabel('Teor Alcoólico')
 plt.show()
 
-# visualiza distribuião entre teor alcoólico e qualidade do vinho
+# visualiza distribuição entre teor alcoólico e qualidade do vinho
 plt.scatter(wine_data['alcohol'], wine_data['quality'])
+plt.title('Distribuição Teor Alcoólico x Qualidade do vinho')
+plt.xlabel('Teor Alcoólico')
+plt.ylabel('Qualidade')
 plt.show()
