@@ -77,10 +77,10 @@ wine_data.isnull().sum()
 ![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 8](plots/dist_teor_x_qualidade_8.png)
 
 #### c. Relação entre acidez volátil e teor alcoólico.</br>
-![Gráfico de Distribuição da Acidez Volátil por Teor Alcoólico](plots/distribuicao_acidez_volatil_x_teor_alcoolico.png)
+![Gráfico de Distribuição da Acidez Volátil por Teor Alcoólico](plots/rel_acidez_x_teor.png)
 
 #### d. Relação entre teor alcoólico e qualidade do vinho.</br>
-![Gráfico de Distribuição do Teor Alcoólico por Qualidade do Vinho](plots/distribuicao_teor_alcoolico_x_qualidade_vinho.png)
+![Gráfico de Distribuição do Teor Alcoólico por Qualidade do Vinho](plots/rel_teor_x_qualidade.png)
 
 ### 5. Analise os resultados e responda às seguintes perguntas:</br>
 #### a. Qual a acidez volátil média dos vinhos de qualidade elevada?</br>
