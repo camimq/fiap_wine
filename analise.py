@@ -208,3 +208,10 @@ plt.title('Relação Teor Alcoólico x Qualidade do vinho')
 plt.xlabel('Teor Alcoólico')
 plt.ylabel('Qualidade')
 plt.show()
+
+# visualiza relação entre acidez volátil e qualidade do vinho
+plt.scatter(wine_data['volatile acidity'], wine_data['quality'])
+plt.title('Relação Acidez Volátil x Qualidade do vinho')
+plt.xlabel('Acidez Volátil')
+plt.ylabel('Qualidade')
+plt.show()
