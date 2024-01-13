@@ -52,17 +52,37 @@ wine_data.isnull().sum()
 
 #### a. Distribution of volatile acidity by wine quality.</br>
 
-![Graph of Distribution of Volatile Acidity by Wine Quality](plots/distribuicao_acidez_volatil_x_qualidade.png)
+![Graph of Distribution of Volatile Acidity by Wine Quality 3](plots/plots/dist_acidez_x_vinhos_3.png)
+
+![Graph of Distribution of Volatile Acidity by Wine Quality 4](plots/plots/dist_acidez_x_vinhos_4.png)
+
+![Graph of Distribution of Volatile Acidity by Wine Quality 5](plots/plots/dist_acidez_x_vinhos_5.png)
+
+![Graph of Distribution of Volatile Acidity by Wine Quality 6](plots/plots/dist_acidez_x_vinhos_6.png)
+
+![Graph of Distribution of Volatile Acidity by Wine Quality 7](plots/plots/dist_acidez_x_vinhos_7.png)
+
+![Graph of Distribution of Volatile Acidity by Wine Quality 8](plots/plots/dist_acidez_x_vinhos_8.png)
 
 #### b. Distribution of alcohol content by wine quality.</br>
 
-![Graph of Distribution of Alcohol Content by Wine Quality](plots/distribuicao_teor_alcoolico_x_qualidade_vinho.png)
+![Graph of Distribution of Alcohol Content by Wine Quality 3](plots/plots/dist_teor_x_qualidade_3.png)
+
+![Graph of Distribution of Alcohol Content by Wine Quality 4](plots/plots/dist_teor_x_qualidade_4.png)
+
+![Graph of Distribution of Alcohol Content by Wine Quality 5](plots/plots/dist_teor_x_qualidade_5.png)
+
+![Graph of Distribution of Alcohol Content by Wine Quality 6](plots/plots/dist_teor_x_qualidade_6.png)
+
+![Graph of Distribution of Alcohol Content by Wine Quality 7](plots/plots/dist_teor_x_qualidade_7.png)
+
+![Graph of Distribution of Alcohol Content by Wine Quality 8](plots/plots/dist_teor_x_qualidade_8.png)
 
 #### c. Relationship between volatile acidity and alcohol content.</br>
-![Graph of Distribution of Volatile Acidity by Alcohol Content](plots/distribuicao_acidez_volatil_x_teor_alcoolico.png)
+![Graph of Distribution of Volatile Acidity by Alcohol Content](plots/rel_acidez_x_teor.png)
 
-#### d. Relationship between volatile acidity and wine quality.</br>
-![Graph of Distribution of Volatile Acidity by Wine Quality](plots/distribuicao_acidez_volatil_x_qualidade.png)
+#### d. Relationship between alcohol content and wine quality.</br>
+![Graph of Distribution of Alcohol Content by Wine Quality](plots/rel_teor_x_qualidade.png)
 
 ### 5. Analyze the results and answer the following questions:</br>
 #### a. What is the average volatile acidity of high quality wines?</br>
@@ -86,19 +106,19 @@ wine_data[wine_data['quality'] >= 8]['volatile acidity'].mean()
   
 Looking at the graph below, it is possible to notice the relationship between the alcohol content and the quality of the wine is strong, that is, the higher the alcohol content, the higher the quality of the wine. However, according to the article published by Cortex, the alcohol content is just one of the facts that influence the quality of the wine. For the answer to be complete, a broad analysis is necessary that includes all factors relevant to determining the quality of the product.
 
-![Graph of Distribution of Alcohol Content by Wine Quality](plots/distribuicao_teor_alcoolico_x_qualidade_vinho.png)
+![Graph of Distribution of Alcohol Content by Wine Quality](plots/rel_teor_x_qualidade.png)
 
 #### **c.** Is there any relationship between volatile acidity and alcohol content?</br>
 
 The relationship between these two variables is weak. However, in the graph it is possible to observe that the higher the alcohol content, the lower the volatile acidity.
 
-![Graph of Distribution of Volatile Acidity by Alcohol Content](plots/distribuicao_acidez_volatil_x_teor_alcoolico.png)
+![Graph of Distribution of Volatile Acidity by Alcohol Content](plots/rel_acidez_x_teor.png)
 
 #### **d.** Is there any relationship between volatile acidity and wine quality?</br>
 
 Yes. The graph below demonstrates that the relationship between acidity and quality is strong and that the higher the volatile acidity, the lower the quality of the wine.
 
-![Graph of Distribution of Volatile Acidity by Wine Quality](plots/distribuicao_acidez_volatil_x_qualidade.png)
+![Graph of Distribution of Volatile Acidity by Wine Quality](plots/rel_acidez_x_qualidade.png)
 
 ##
 
