@@ -44,7 +44,7 @@ wine_data[wine_data['quality'] >= 8]['volatile acidity'].mean()
 wine_data[['alcohol', 'quality']].groupby('quality').agg(sum).plot(kind='bar')
 plt.xlabel('Qualidade')
 plt.ylabel('Teor Alcoólico')
-plt.title('Distribuição da Acidez Volátil x Qualidade')
+plt.title('Distribuição do Teor Alcoólico x Qualidade')
 plt.show()
 
 # relação entre acidez volátil e teor alcoólico
