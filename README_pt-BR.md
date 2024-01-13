@@ -51,17 +51,7 @@ wine_data.isnull().sum()
 ### 4. Utilize o Matplotlib para visualizar as seguintes informações: </br>
 
 #### a. Distribuição da acidez volátil por qualidade do vinho.</br>
-![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 3](plots/dist_acidez_x_vinhos_3.png)
-
-![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 4](plots/dist_acidez_x_vinhos_4.png)
-
-![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 5](plots/dist_acidez_x_vinhos_5.png)
-
-![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 6](plots/dist_acidez_x_vinhos_6.png)
-
-![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 7](plots/dist_acidez_x_vinhos_7.png)
-
-![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 8](plots/dist_acidez_x_vinhos_8.png)
+![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade ](plots/dist_acidez_qualidade.png)
 
 #### b. Distribuição do teor alcoólico por qualidade do vinho.</br>
 ![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 3](plots/dist_teor_x_qualidade_3.png)
