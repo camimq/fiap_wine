@@ -105,20 +105,20 @@ No artigo ou na fonte de onde o _dataset_ é retirado, não encontrei nenhuma de
   
 Olhando para o gráfico abaixo, é possível notar que a relação entre o teor alcoólico e a qualidade do vinho é forte, ou seja, quanto maior o teor alcoólico, maior a qualidade do vinho. Contudo, de acordo com o artigo publicado por Cortex, o teor alcoólico é apenas um dos fatos que influenciam na qualidade do vinho. Para que a resposta seja completa, é necessária uma análise ampla que contemple todos os fatores relevantes para a determinação da qualidade do produto.
 
-![Gráfico de Distribuição do teor alcoólico por qualidade do vinho](plots/distribuicao_teor_alcoolico_x_qualidade_vinho.png)
+![Gráfico de Distribuição do teor alcoólico por qualidade do vinho](plots/rel_teor_x_qualidade.png)
 
 #### c. Há alguma relação entre acidez volátil e teor alcoólico?</br>
 
 A relação entre essas duas variáveis é fraca. Mas, no gráfico abaixo é possível observar que, quanto maior for o teor alcoólico, menor será a acidez volátil.
 
-![Gráfico de Distribuição acidez volátil x teor alcoólico](plots/distribuicao_acidez_volatil_x_teor_alcoolico.png)
+![Gráfico de Distribuição acidez volátil x teor alcoólico](plots/rel_acidez_x_teor.png)
 
 
 #### d. Há alguma relação entre acidez volátil e qualidade do vinho?</br>
 
 Sim. O gráfico abaixo demonstra que a relação entre acidez e qualidade é forte e que, quanto maior a acidez volátil, menor é a qualidade do vinho.
 
-![Gráfico de Distribuição acidez volátil x qualidade](plots/distribuicao_acidez_volatil_x_qualidade.png)
+![Gráfico de Distribuição acidez volátil x qualidade](plots/rel_acidez_x_qualidade.png)
 
 ##
 
