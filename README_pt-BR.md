@@ -54,17 +54,8 @@ wine_data.isnull().sum()
 ![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade ](plots/dist_acidez_qualidade.png)
 
 #### b. Distribuição do teor alcoólico por qualidade do vinho.</br>
-![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 3](plots/dist_teor_x_qualidade_3.png)
 
-![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 4](plots/dist_teor_x_qualidade_4.png)
-
-![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 5](plots/dist_teor_x_qualidade_5.png)
-
-![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 6](plots/dist_teor_x_qualidade_6.png)
-
-![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 7](plots/dist_teor_x_qualidade_7.png)
-
-![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 8](plots/dist_teor_x_qualidade_8.png)
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade](plots/dist_teor_qualidade.png)
 
 #### c. Relação entre acidez volátil e teor alcoólico.</br>
 ![Gráfico de Distribuição da Acidez Volátil por Teor Alcoólico](plots/rel_acidez_x_teor.png)
