@@ -68,7 +68,7 @@ wine_data.isnull().sum()
 
 ![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 4](plots/dist_teor_x_qualidade_4.png)
 
-![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 6](plots/dist_teor_x_qualidade_6.png)
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 5](plots/dist_teor_x_qualidade_5.png)
 
 ![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 6](plots/dist_teor_x_qualidade_6.png)
 
