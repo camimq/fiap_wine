@@ -49,11 +49,32 @@ wine_data.isnull().sum()
 > Não foram encontrados dados faltantes no dataset, após o primeiro tratamento feito: deleção de linhas duplicadas.
 
 ### 4. Utilize o Matplotlib para visualizar as seguintes informações: </br>
+
 #### a. Distribuição da acidez volátil por qualidade do vinho.</br>
-![Gráfico de Distribuição da Acidez Volátil por Qualidade do vinho](plots/distribuicao_acidez_volatil_x_qualidade.png)
+![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 3](plots/dist_acidez_volatil_x_vinhos_3.png)
+
+![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 4](plots/dist_acidez_volatil_x_vinhos_4.png)
+
+![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 5](plots/dist_acidez_volatil_x_vinhos_5.png)
+
+![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 6](plots/dist_acidez_volatil_x_vinhos_6.png)
+
+![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 7](plots/dist_acidez_volatil_x_vinhos_7.png)
+
+![Gráfico de Distribuição da Acidez Volátil por Vinho Qualidade 8](plots/dist_acidez_volatil_x_vinhos_8.png)
 
 #### b. Distribuição do teor alcoólico por qualidade do vinho.</br>
-![Gráfico de Distribuição do Teor Alcoólico por Qualidade do Vinho](plots/distribuicao_teor_alcoolico_x_qualidade_vinho.png)
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 3](plots/dist_teor_x_qualidade_3.png)
+
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 4](plots/dist_teor_x_qualidade_4.png)
+
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 6](plots/dist_teor_x_qualidade_6.png)
+
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 6](plots/dist_teor_x_qualidade_6.png)
+
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 7](plots/dist_teor_x_qualidade_7.png)
+
+![Gráfico de Distribuição do Teor Alcoólico por Vinho Qualidade 8](plots/dist_teor_x_qualidade_8.png)
 
 #### c. Relação entre acidez volátil e teor alcoólico.</br>
 ![Gráfico de Distribuição da Acidez Volátil por Teor Alcoólico](plots/distribuicao_acidez_volatil_x_teor_alcoolico.png)
@@ -88,7 +109,7 @@ Olhando para o gráfico abaixo, é possível notar que a relação entre o teor 
 
 #### c. Há alguma relação entre acidez volátil e teor alcoólico?</br>
 
-A relação entre essas duas variáveis é fraca. Mas, no gráfico abaico é possível observar que, quanto maior for o teor alcoólico, menor será a acidez volátil.
+A relação entre essas duas variáveis é fraca. Mas, no gráfico abaixo é possível observar que, quanto maior for o teor alcoólico, menor será a acidez volátil.
 
 ![Gráfico de Distribuição acidez volátil x teor alcoólico](plots/distribuicao_acidez_volatil_x_teor_alcoolico.png)
 
